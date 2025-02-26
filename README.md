@@ -13,7 +13,7 @@ To develop a deep learning model to predict a patient's severity of decline in l
 
 # Steps to run the application
 1. Unzip the project folder to your local machine
-2. Install all the necessary python libraries
+2. Install all the necessary python libraries in requirements.txt
 3. Run app.py 
 
 # Dataset Details
