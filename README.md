@@ -3,8 +3,11 @@
 # Application overview
 Pulmonary Fibrosis is a lung disease that is caused by scarring of tissues in the lungs.Over time,the scar tissue can destroy the normal lungs and make it hard for oxygen to get into blood.It is difficult for clinicians to predict the prognosis of the disease even with the help of CT Scans.This application provides a way to assist doctors by providing the prediction of the disease's prognosis so that the doctors can plan optimal treatment options.
 
-# Application Objective 
-To develop a deep learning model to predict a patient's severity of decline in lung function based on the CT scan of lungs,patient's clinical information and a parameter called Forced Vital Capacity(FVC) which is the amount of air that can be forcibly exhaled from lungs after taken the deepest breath possible, as measured by spirometry.It can help doctors assess the progression of lung disease and evaluate the effectiveness of treatment.
+# Methodology 
+This project predicts the progression of FVC over time by using CNNs to analyze CT scan images and XGBoost to extract insights from patient metadata. The models are combined in an ensemble to achieve optimal performance. This approach leverages both image-based and tabular data for improved accuracy.
+
+# Results and Impact
+The Laplace log-likelihood was used to evaluate the models, accounting for outliers. The ensemble of CNN and XGBoost reduced the loss by 0.3, achieving a Log Laplace likelihood of -5.12.
 
 # Software requirements
 1. Python Integrated Development Environment (IDE) - Spyder/PyCharm/Google Colaboratory
